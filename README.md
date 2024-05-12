@@ -1,7 +1,9 @@
 # Gemini PDF Chatbot
 
 Hand-Gesture Mouse Control with OpenCV! - This Python script transforms your webcam into a magic wand! - Wave your hand to effortlessly control your mouse cursor and perform clicks. Powered by MediaPipe and OpenCV, it's your gateway to a futuristic, gesture-driven computing experience.
-<https://github.com/farzeencode/Hand-Gesture-Controlled-Mouse-Project/assets/145785539/d0d588ab-38f9-4cde-a8e5-0eeabe124931>
+
+https://github.com/farzeencode/Hand-Gesture-Controlled-Mouse-Project/assets/145785539/d0d588ab-38f9-4cde-a8e5-0eeabe124931
+
 
 
 ## Features
