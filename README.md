@@ -1,39 +1,56 @@
-Hand Gesture Mouse Control with OpenCV and MediaPipe
-This repository contains a Python script that allows users to control the mouse cursor and perform clicks using hand gestures captured through a webcam. The script uses the MediaPipe library for hand tracking and OpenCV for image processing.
+# Gemini PDF Chatbot
 
-Features:
-Real-time Hand Tracking: Utilizes the MediaPipe Hands module to detect and track hand landmarks in real-time from the webcam feed.
+Hand-Gesture Mouse Control with OpenCV! - This Python script transforms your webcam into a magic wand! - Wave your hand to effortlessly control your mouse cursor and perform clicks. Powered by MediaPipe and OpenCV, it's your gateway to a futuristic, gesture-driven computing experience.
+<https://github.com/farzeencode/Hand-Gesture-Controlled-Mouse-Project/assets/145785539/d0d588ab-38f9-4cde-a8e5-0eeabe124931>
 
-Mouse Cursor Control: Moves the mouse cursor based on the position of the index finger, providing a natural and intuitive control mechanism.
 
-Click Detection: Detects a click gesture by checking the proximity of the thumb and index finger, enabling users to perform mouse clicks through hand gestures.
+## Features
 
-Smooth Mouse Movement: Implements a smoothing factor for mouse movement to ensure a more fluid and user-friendly experience.
+- **Real-time Hand Tracking:** Utilizes MediaPipe Hands for immediate hand movement tracking from webcam footage.
 
-Frame Rate Display: Shows the frames per second (FPS) on the video feed to monitor the performance of the hand tracking and mouse control.
+- **Gesture Recognition:**  Detects hand gestures, like finger positions, for user commands.
+- **Cursor Control:** Maps hand movements to cursor positions, offering hands-free interaction.
 
-Requirements:
-Python 3.x
-OpenCV
-Mediapipe
-Autopy
-How to Use:
-Install the required dependencies by running:
+- **Click Detection:** Identifies finger touches to simulate mouse clicks.
 
-bash
-Copy code
-pip install opencv-python mediapipe autopy
-Run the script:
+- **Performance Monitoring:** Displays real-time FPS for assessing application responsiveness.
 
-bash
-Copy code
-python hand_gesture_mouse.py
-Interact with the webcam using hand gestures as described in the script.
 
-Configuration:
-Adjust the click_threshold variable to fine-tune the sensitivity of click detection based on your hand size and camera resolution.
 
-Modify the smoothing_factor for mouse movement to achieve the desired level of smoothness.
+## Local Development
 
-Notes:
-Press 'ESC' to exit the application.
+Follow these instructions to set up and run this project on your local machine.
+
+   **Note:**  Autopy library requires Python 2.7, or Python 3.5 and up
+   This project requires Python 3.10 or higher.                     
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/farzeencode/Hand-Gesture-Controlled-Mouse-Project.git
+   ```
+
+2. **Install Dependencies:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+
+
+## Project Structure
+
+- `mouse2.py`: Main application script.
+- `requirements.txt`: Python packages required for working of the app.
+- `README.md`: Project documentation.
+
+## Dependencies
+
+- cv2
+- mediapipe 
+- time
+- math
+- autopy
+
+
+
